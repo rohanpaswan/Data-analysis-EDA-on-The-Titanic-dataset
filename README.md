@@ -30,7 +30,10 @@ Theoretical Concept: Missing Value Imputation
 Imputation is the process of replacing missing data with substituted values. The strategy depends on the data type and its distribution:
 
 1 Numerical Data: For skewed distributions (like Age and Fare), using the median is more robust than the mean because it is not affected by outliers.
+
 2 Categorical Data: A common strategy is to fill with the mode (the most frequent value).
+
 3 High Cardinality/Too Many Missing Values: For columns like Cabin, where most data is missing, imputing might not be effective.
+
 
 
